@@ -35,7 +35,7 @@ git add .
 git commit -m "first commit"
 ```
 
-onliner updates  for readme
+oneliner updates  for readme
 
 ```bash
 git add . && git commit -m "update Readme.md"
@@ -44,4 +44,27 @@ git add . && git commit -m "update Readme.md"
 git remote add origin https://github.com/c17hawke/simple-dvc-demo.git
 git branch -M main
 git push origin main
+```
+
+tox command -
+```bash
+tox
+```
+for rebuilding -
+```bash
+tox -r 
+```
+pytest command
+```bash
+pytest -v
+```
+
+setup commands -
+```bash
+pip install -e . 
+```
+
+build your own package commands- 
+```bash
+python setup.py sdist bdist_wheel
 ```

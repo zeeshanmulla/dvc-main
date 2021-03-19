@@ -1,6 +1,5 @@
-
 # local package install
-# -e .
+-e .
 
 # third party packages
 dvc
@@ -10,3 +9,5 @@ pandas
 pytest
 tox
 flake8
+flask
+gunicorn
